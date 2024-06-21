@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color:  rgb(7, 7, 7) ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+    height: 60px;
+    width: 100%;
+}
+
+.header_nav{
+    word-spacing: 1rem;
+}
+
+.header_nav a{
+    text-decoration: none;
+    color: white;
+}
+.header_nav a:hover{
+    color:rgb(230, 233, 32) ;
+}
+
+.hero{
+    background: url(/images/hero.jpg);
+    height: 750px;
+    background-size: cover;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector{
+    width: 40px;
+    height: 40px;
+    color: rgb(230, 233, 32);
+    margin-left: 4rem;
+}
+
+.boton1{
+    color: black;
+    background-color: rgb(230, 233, 32);
+    padding: 8px 14px 8px 14px;
+    margin-right: 4rem;
+}
+
+.hero_textos{
+    flex-direction: column;
+}
+
+.hero_textos h1{
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    color: rgb(230, 233, 32);
+}
+
+.hero_textos p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.hero_textos button{
+    padding: 7px 16px 7px 16px;
+    margin-left: 18rem;
+    background-color:rgb(230, 233, 32) ;
+    color: black;
+}
+
+.nosotros{
+    background-color:  rgb(7, 7, 7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nosotros h1{
+    color:rgb(230, 233, 32);
+    font-size: 30px;
+    margin-top: 5rem;
+    font-family: "Anton", sans-serif;
+}
+
+.boton2{
+    margin-top: 2rem;
+    padding: 7px 16px 7px 16px;
+    background-color:rgb(230, 233, 32) ;
+    color: black;
+}
+.boton2 a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+.nosotros h3{
+    margin-top: 2rem;
+    color: white;
+    font-size: 21px;
+    width: 750px;
+    line-height: 35px;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.categorias{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.categorias h1{
+    color:rgb(230, 233, 32);
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+}
+
+.categorias h3{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.categorias_container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+.fila_contenedores{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.6rem;
+}
+.fila_contenedores div p{
+    text-align: center;
+    color: transparent;
+    padding: 115px 115px;
+    cursor: pointer;
+}
+.fila_contenedores div p:hover{
+    font-size: 35px;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    justify-content: center;
+    color:rgb(230, 233, 32); 
+}
+.contenedor1{
+    background-image: url(/images/stretches.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+.contenedor2{
+    background-image: url(/images/depos.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+.contenedor3{
+    background-image: url(/images/pilates.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+.contenedor4{
+    background-image: url(/images/kick.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.contenedor5{
+    background-image: url(/images/losotro.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.contenedor6{
+    background-image: url(/images/cardio.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    width: 600px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.cuerpo {
+     background-color:  rgb(7, 7, 7);
+}
+
+.form_titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    color:rgb(230, 233, 32);
+}
+
+.col-12{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer{
+    margin-top: 4rem;
+    background-color:  rgb(7, 7, 7);
+    color: white;
+}
+
+.formu{
+    margin-top: 6.5rem;
+    width: 425px;
+}
+.formu h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    color:rgb(230, 233, 32);
+}
+
+#profesores h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    color:rgb(230, 233, 32);
+    margin-bottom: 2.5rem;
+}
+form div{
+    margin-top: 1rem;
+}
+form label{
+    color: white;
+}
+form button{
+    padding: 10px 30px;
+    background-color:rgb(230, 233, 32); 
+}
+.card{
+    background-color:  rgb(7, 7, 7);
+    border: 2px solid rgb(230, 233, 32);
+}
+.card-body h5, p{
+    color: white;
+}
+
+.contactanos{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+iframe{
+    margin-top: 5rem;
+    width: 425px;
+    height: 425px;
+}
+
+.card img{
+    text-align: center;
+    width: 240px;
+    height: 190px;
+}
+
+.login{
+    margin-top: 5rem;
+    margin-left: 25rem;
+    text-align: center;
+    width: 50%;
+}
+
+.login label{
+    text-align: left;
+    color: white;
+    margin-right: 45rem;
+}
+
+.login button{
+    margin-top: 1.5rem;
+    background-color: rgb(230, 233, 32);
+    color: black;
+    padding: 8px 15px 8px 15px;
+}
